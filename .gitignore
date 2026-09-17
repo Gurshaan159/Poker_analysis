@@ -1,0 +1,64 @@
+# Project data (raw inputs and generated tables)
+/data/
+/handhq/
+
+# Common data and database files anywhere in the project
+*.parquet
+*.feather
+*.arrow
+*.csv
+*.tsv
+*.phhs
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Generated analysis outputs and serialized models
+/output/
+/outputs/
+/results/
+/artifacts/
+/models/
+*.pkl
+*.pickle
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python caches, environments, and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating-system files
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+~$*
